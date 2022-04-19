@@ -6,8 +6,8 @@
 //    Mouse
 // https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types
 
-let pet = 'Dog';
+let pet: "Dog" | "Cat" | "Mouse" = "Dog";
 
 // Do not change the below
-pet = 'Cat';
-pet = 'Hamster'; // This should have problems
+pet = "Cat";
+pet = "Hamster"; // This should have problems
